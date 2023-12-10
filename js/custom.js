@@ -54,9 +54,9 @@ $(window).on('load', function(){
 	
 	$(window).on('scroll', function() {
 		if($(this).scrollTop() > 450) {
-			$('.navbar-fixed-top').addClass('opaque');
+			$('.navbar-fixed-top').addClass('opaque').removeClass('normal');
 		} else {
-			$('.navbar-fixed-top').removeClass('opaque');
+			$('.navbar-fixed-top').removeClass('opaque').addClass('normal');
 		}
 	});
  

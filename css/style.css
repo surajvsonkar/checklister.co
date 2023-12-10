@@ -513,6 +513,14 @@ iframe {
     color: #fff!important;
 }
 
+.normal {
+	position: absolute!important;
+    background-color: rgba(0, 0, 0, 0.0)!important;
+    border-bottom: none;
+    background: linear-gradient(135deg, #6B02FF 0%, #985BEF 100%);
+    transition: background-color 0.25s ease 0s;
+}
+
 /* ========================================================== */
 /* 			                03. FOOTER                        */
 /* ========================================================== */
